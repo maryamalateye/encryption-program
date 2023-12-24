@@ -1,7 +1,5 @@
 import random
 
-"""Ord returns the character's ASCII position. lowercase characters start at 97, so we subtract by 97"""
-
 def chunky(path):
     """Function that takes a file and breaks it up into blocks of 2 characters"""
     unencryptedFile = open(path, "r")
